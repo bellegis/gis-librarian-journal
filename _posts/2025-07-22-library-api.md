@@ -5,7 +5,7 @@ subtitle: Starting to explore the Harvard Library catalog API for working with m
 gh-repo: bellegis/gis-librarian-journal
 tags: [coding]
 author: Belle Lipton
-cover-img: /assets/img/cover.png
+cover-img: /assets/img/mods.png
 thumbnail-img: /assets/img/mods.png
 share-img: /assets/img/cover.png
 
