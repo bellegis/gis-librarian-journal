@@ -5,8 +5,8 @@ subtitle: Starting to explore the Harvard Library catalog API for working with m
 gh-repo: bellegis/gis-librarian-journal
 tags: [coding]
 author: Belle Lipton
-cover-img: /assets/img/mods.png
-thumbnail-img: /assets/img/mods.png
+cover-img: /assets/img/cover.png
+thumbnail-img: /assets/img/cover.png
 share-img: /assets/img/mods.png
 
 ---
@@ -24,19 +24,19 @@ Starting out, I’ve just been trying a catch-all query across all fields:`q=` a
 
 The first steps so far have been parsing the MODS data. Queries return bibliographic records in MODS format, which is XML structured with tags. I learned about all of the various ways to encode catalog records during library school, but it’s still been a doozy and a refresh to make sense of the MODS structures.
 
-![many hierarchical attributes about a library record](/assets/img/mods.png)
+![many hierarchical attributes about a library record](./assets/img/mods.png)
 
 For now, I want to display a certain amount of fields, so I can get to know what’s included in the metadata. I can think of all sorts of interesting ways to leverage different fields. Right now, I’m really into the genre fields; it would be pedagogically compelling and a great way into the collections to be able to browse, for instance, by `Genre`. Imagine an image-rich gallery for all `Early works to 1800s` or maps with `Timetables` .
 
-<iframe src="https://uv-v4.netlify.app/uv.html#?manifest=https://iiif.lib.harvard.edu/manifests/ids:482179709&c=0&m=0&cv=0&config=&locales=en-GB:English (GB),cy-GB:Cymraeg,fr-FR:Français (FR),pl-PL:Polski,sv-SE:Svenska&xywh=-246,-61,8180,5070&r=0" width="560" height="420" allowfullscreen frameborder="0"></iframe>
+<iframe src="https://uv-v4.netlify.app/uv.html#?manifest=https://iiif.lib.harvard.edu/manifests/ids:482179709&c=0&m=0&cv=0&config=&locales=en-GB:English (GB),cy-GB:Cymraeg,fr-FR:Français (FR),pl-PL:Polski,sv-SE:Svenska&xywh=-246,-61,8180,5070&r=0" width="700" height="500" allowfullscreen frameborder="0"></iframe>
 
 Right now it’s been interesting even just making a mini HOLLIS. 
 
-![searching for Ottens and displaying a map result](/assets/img/search.gif)
+![searching for Ottens and displaying a map result](./assets/img/search.gif)
 
 I was curious what all of the different attributes for image URLs seemed to be for. I’m still not 100% certain on the intended functions for each one, but my favorite I’ve discovered is an attribute `access` with the value `object in context`. This tells you all of the other Harvard Library digital collections a library object has been included in. I’ve always felt a bit out of my depth at the sheer scale of thematic collections here at Harvard, so its been wonderful to see our maps contextualized by the broader impact of the fields they shed light on. So far, I’ve found some of our maps which have been written up in projects such as the [Islamic Heritage Project](https://curiosity.lib.harvard.edu/islamic-heritage-project?utm_source=library.harvard), [Worlds of Change](https://curiosity.lib.harvard.edu/worlds-of-change) documenting records at Harvard that relate to 17th and 18th century North America, and one about [sponsored expeditions and scientific discovery](https://library.harvard.edu/collections/expeditions-and-discoveries-sponsored-exploration-and-scientific-discovery-modern-age). 
 
-Here are some notes to end off of me trying to print out the MODS structure for a returned record (this doesn’t include attributes).
+Here are some print outs of a MODS structure for one returned record (not including attributes).
 
 
 ``` xml
