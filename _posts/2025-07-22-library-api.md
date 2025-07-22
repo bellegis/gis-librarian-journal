@@ -28,7 +28,7 @@ The first steps so far have been parsing the MODS data. Queries return bibliogra
 
 For now, I want to display a certain amount of fields, so I can get to know what’s included in the metadata. I can think of all sorts of interesting ways to leverage different fields. Right now, I’m really into the genre fields; it would be pedagogically compelling and a great way into the collections to be able to browse, for instance, by `Genre`. Imagine an image-rich gallery for all `Early works to 1800s` or maps with `Timetables` .
 
-<iframe src="https://uv-v4.netlify.app/uv.html#?manifest=https://iiif.lib.harvard.edu/manifests/ids:482179709&c=0&m=0&cv=0&config=&locales=en-GB:English (GB),cy-GB:Cymraeg,fr-FR:Français (FR),pl-PL:Polski,sv-SE:Svenska&xywh=-246,-61,8180,5070&r=0" width="700" height="500" allowfullscreen frameborder="0"></iframe>
+<iframe src="https://uv-v4.netlify.app/uv.html#?manifest=https://iiif.lib.harvard.edu/manifests/ids:482179709&c=0&m=0&cv=0&config=&locales=en-GB:English (GB),cy-GB:Cymraeg,fr-FR:Français (FR),pl-PL:Polski,sv-SE:Svenska&xywh=-246,-61,8180,5070&r=0" width="800" height="600" allowfullscreen frameborder="0"></iframe>
 
 Right now it’s been interesting even just making a mini HOLLIS. 
 
